@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="50">
+
+
+        <ImageButton
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/contact"
+            android:layout_width="162dp"
+            android:layout_height="145dp"
+            android:src="@drawable/contact" />
+
+        <ImageButton
+            android:id="@+id/yoga"
+            android:layout_width="162dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="145dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:src="@drawable/icon_yoga"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_weight="50">
+
+        <ImageButton
+            android:id="@+id/food"
+            android:layout_width="162dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/food"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="188dp" />
+
+
+        <ImageButton
+            android:id="@+id/frnd"
+            android:layout_width="162dp"
+            android:layout_height="145dp"
+            android:src="@drawable/frnd"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="214dp"
+            tools:layout_editor_absoluteY="188dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

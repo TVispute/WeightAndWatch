@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact"
+        android:src="@drawable/contact"
+        android:scaleType="fitStart"/>
+
+    <ImageButton
+        android:id="@+id/yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:cropToPadding="false"
+        android:src="@drawable/icon_yoga"
+        />
+
+    <ImageButton
+        android:id="@+id/food"
+        android:layout_width="154dp"
+        android:layout_height="143dp"
+        android:src="@drawable/food"
+     />
+
+    <ImageButton
+        android:id="@+id/frnd"
+        android:layout_width="147dp"
+        android:layout_height="134dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginRight="220dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/frnd"
+        />
+
+
+</RelativeLayout>
